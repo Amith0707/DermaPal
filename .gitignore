@@ -1,0 +1,112 @@
+# FRONTEND (React / Vite)
+client/node_modules/
+client/dist/
+client/.env
+client/.vite/
+client/.DS_Store
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+description.txt
+project_structure.text
+# Firebase web credentials (frontend)
+client/firebaseConfig.json
+
+# BACKEND (FastAPI / Python)
+server/__pycache__/
+server/*.pyc
+server/.env
+server/venv/
+server/env/
+server/.pytest_cache/
+server/.mypy_cache/
+server/.vscode/
+server/.idea/
+server/.DS_Store
+
+# Logs & runtime files
+server/logs/
+server/*.log
+*.log 
+
+# AI / MODEL FILES
+ai/__pycache__/
+ai/models/*/
+ai/models/**/*.bin
+ai/models/**/*.safetensors
+ai/models/**/*.pt
+ai/models/**/*.pth
+ai/models/**/checkpoint-*/
+ai/training/__pycache__/
+ai/training/logs/
+ai/training/output/
+ai/.DS_Store
+
+# STREAMLIT FALLBACK
+streamlit/__pycache__/
+streamlit/.env
+streamlit/.streamlit/secrets.toml
+streamlit/venv/
+streamlit/env/
+streamlit/.DS_Store
+
+# FIREBASE CONFIGS
+firebase/serviceAccountKey.json
+firebase/firebaseConfig.json
+firebase/.DS_Store
+
+# PYTHON / ENVIRONMENT FILES
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+.env
+venv/
+env/
+*.egg-info/
+pip-wheel-metadata/
+dist/
+build/
+*.egg
+
+# DEPLOYMENT / DOCKER / SYSTEM
+deployment/.env
+deployment/.DS_Store
+deployment/*.log
+docker-compose.override.yml
+*.bak
+*.tmp
+*.swp
+
+# TESTS / TEMP FILES
+tests/__pycache__/
+tests/*.pyc
+tests/results/
+tests/output/
+*.pytest_cache/
+
+# DOCUMENTATION / SYSTEM FILES
+docs/.DS_Store
+*.pdf
+*.tmp
+*.bak
+
+# IDE & OS JUNK
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+
+# MISC
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+*.ipynb_checkpoints
+__MACOSX/
