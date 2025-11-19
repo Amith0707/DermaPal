@@ -13,6 +13,7 @@ project_structure.text
 # Firebase web credentials (frontend)
 client/firebaseConfig.json
 
+instruction_manual.txt
 # BACKEND (FastAPI / Python)
 server/__pycache__/
 server/*.pyc
@@ -110,3 +111,9 @@ ehthumbs.db
 *.7z
 *.ipynb_checkpoints
 __MACOSX/
+*.ipynb
+# Folders-Dataset
+dataset
+server/artifacts/
+# Environment
+derm
