@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: #f9fafb;
+  background: #d9dee3;
 }
 
 /* Navigation Bar */
@@ -26,7 +26,7 @@ nav a {
 .page {
   max-width: 480px;
   margin: 32px auto;
-  background: white;
+  background: lavenderblush;
   padding: 24px;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
