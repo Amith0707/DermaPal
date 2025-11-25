@@ -115,5 +115,8 @@ __MACOSX/
 # Folders-Dataset
 dataset
 server/artifacts/
+server/app/list_dir.py
+ai/weights
+ai/outputs
 # Environment
 derm
