@@ -118,5 +118,8 @@ server/artifacts/
 server/app/list_dir.py
 ai/weights
 ai/outputs
+
+# heatmaps
+gradio_app/heatmaps
 # Environment
-derm
+server/derm

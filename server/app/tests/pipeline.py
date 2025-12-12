@@ -5,9 +5,10 @@ import numpy as np
 from typing import Optional
 from logging import Logger
 
-from app.tests.hair_removal import remove_hairs
-from app.tests.denoising import denoise_image
-from app.tests.normalization import clahe_lab
+from server.app.tests.hair_removal import remove_hairs
+from server.app.tests.denoising import denoise_image
+from server.app.tests.normalization import clahe_lab
+
 
 def process_single_image(path: str,
                          logger: Optional[Logger] = None,

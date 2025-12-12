@@ -16,7 +16,7 @@ from app.tests.pipeline import process_single_image
 
 def run_preprocessing(
     input_root: str = "dataset/Train",
-    output_root: str = "artifacts/processed_images",
+    output_root: str = "artifacts/processed_images_final",
     max_per_class: int = 100,
     seed: int = 42,
 ):
@@ -113,9 +113,9 @@ def run_preprocessing(
 
 def main(): # will be removed during infrenecing via streamlit for now it's CLI(optional)
     run_preprocessing(
-        input_root="dataset/Train",
-        output_root="artifacts/processed_images",
-        max_per_class=100,
+        input_root="dataset/Complete Dataset",
+        output_root="artifacts/processed_images_final",
+        max_per_class=1000, # 1000 images per class as of now
         seed=42,
     )
 
