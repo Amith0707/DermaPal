@@ -80,9 +80,15 @@ def run_inference(model_choice, raw_image_path):
     heatmap_file = outputs["heatmap_file"]    # <<—— FIXED
 
     # print(f"[INFO] Heatmap saved at: {heatmap_path}")
+    CLASS_LABELS = {
+        0: "Melanoma",
+        1: "Nevus",
+        2: "Basal Cell Carcinoma",
+        3: "Benign Keratosis"
+    }
 
     return (
-        f"Predicted Class: {prediction}",
+        f"Predicted Class: {CLASS_LABELS[prediction]}",
         f"Best Confidence: {best_conf:.4f}",
         f"Mean: {mean_conf:.4f} | Variance: {variance:.6f}",
         heatmap_file

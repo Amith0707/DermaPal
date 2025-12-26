@@ -100,3 +100,4 @@ def run_calibrated_inference(model_name, weight_path, pil_image, device="cpu"):
         "heatmap_file": save_path  # renamed for clarity
     }
 
+

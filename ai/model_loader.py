@@ -23,7 +23,6 @@ def load_dermapal_model(model_name: str, weight_path: str, device: str = "cpu"):
 
     print(f"[INFO] Loading model architecture: {model_name}")
 
-    # Use the same architecture used during training
     model = timm.create_model(model_name, pretrained=False, num_classes=4)
 
     print(f"[INFO] Loading weights: {weight_path}")
